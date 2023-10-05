@@ -1,0 +1,26 @@
+.navbar{
+    background-color: #77A6F7;
+}
+.navbar-brand{
+    color: #fff;
+    font-weight: bold;
+}
+.cart-shopping-icon{
+    position: relative;
+    cursor: pointer;
+}
+.shopping-icon{
+    font-size: 35px;
+    color: #fff;
+}
+.number-product-slected{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    color: #00887A;
+    font-size: 12px;
+    font-weight: bold;
+    padding:0 6px;
+    border-radius: 50%;
+}

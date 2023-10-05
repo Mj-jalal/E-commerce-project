@@ -1,0 +1,24 @@
+.header-shopping-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;
+    color: #fff;
+}
+.close-shopping-cart{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFCCBC;
+    transition: all .3s;
+}
+.close-shopping-cart:hover{
+    background-color: #FFCCBC;
+    color: #fff;
+}

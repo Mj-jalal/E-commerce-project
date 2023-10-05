@@ -1,0 +1,45 @@
+
+.card-container{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #FFCCBC;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+}
+.card-container img{
+    width: 100%;
+    height:150px;
+}
+.card-container h6{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.rate-container{
+    display: flex;
+}
+.star-container{
+    margin-right: 8px;
+}
+.price-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating-star{
+    color: #fff000;
+}
+.old-price{
+    text-decoration: line-through;
+}
+.card-container button{
+    border: 1px solid #00887A;
+    background-color: #fff;
+    color: #00887A;
+    font-weight: bold;
+    transition: all .3s;
+}
+.card-container button:hover{
+    background-color: #00887A;
+    color: #fff;
+}

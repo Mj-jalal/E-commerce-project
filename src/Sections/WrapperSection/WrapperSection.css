@@ -1,0 +1,7 @@
+
+@media screen and (max-width: 600px) {
+    .body-container{
+        padding-left:0 !important;
+        padding-right: 0 !important;
+    }
+  }

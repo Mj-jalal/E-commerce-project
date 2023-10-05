@@ -1,0 +1,22 @@
+.footer-shopping-cart{
+    width: 100%;
+    background-color: #D3E3FC;
+    padding: 25px 15px;
+}
+.footer-shopping-cart button{
+    width: 100%;
+    padding: 15px 0;
+    border: 1px solid #00887A;
+    background-color: #fff;
+    color: #00887A;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.subtotal{
+    font-weight: bold;
+    color: #77A6F7;
+}
+.subtotal-price{
+    font-weight: bold;
+    color: #77A6F7;
+}

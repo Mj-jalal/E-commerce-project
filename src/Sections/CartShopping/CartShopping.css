@@ -1,0 +1,27 @@
+.cart-shopping-container{
+    position: fixed;
+    top: 0;
+    right:-100%;
+    height: 100vh;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #77A6F7;
+    transition: all .3s;
+}
+.cartSlide{
+    right: 0;
+}
+.cart-content{
+    overflow: auto;
+}
+.cart-content::-webkit-scrollbar{
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    .cart-shopping-container{
+        width: 100%;
+    }
+  }
